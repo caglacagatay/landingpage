@@ -1,0 +1,106 @@
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.slide {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    
+}
+
+.slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: brightness(80%);
+
+}
+
+.caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+/* 2. pagination slider */
+
+.card-slider {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.card {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: brightness(65%);
+    border-radius: 5px;
+    
+}
+
+.card-caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+/* Pagination noktaları */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination .dot.active {
+    background-color: #f9bd0f;
+}

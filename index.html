@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!--header-->
+    <nav class="navbar sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="brand" href="index.html"><img src="logo.jpg" width="120px" style="margin-left: 50px;"></a>
+            <button class="btn-cagla"><a href="tel:#"><i class="fa-solid fa-phone"></i> 444 02 22</a></button>
+        </div>
+    </nav>
+
+    <!--içerik alanı-->
+    <div class="hero">
+        <img
+            src="https://images.squarespace-cdn.com/content/v1/604ada6a436e397a99d52663/1647737526318-LMOP0I69NYQVMEJ8MG8C/unsplash-image-AlBgcDfDG_s.jpg">
+        <div class="hero-caption">
+            <h1>Ütopya Maltepe</h1>
+            <p>Doğa ve şehir hayatını buluşturan konforlu bir yaşam</p>
+            <button class="btn-cagla"><a href="#"></a>Randevu Al</button>
+        </div>
+    </div>
+
+    <!-- Proje hakkında-->
+    <div id="about-section">
+        <div class="about-container">
+            <div class="section-left">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="https://right-way.co/images/newsen/174/Right-Way-Blogs2.jpg" alt="Resim 1">
+                        <div class="caption">Bu birinci resmin yazısı.</div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?cs=srgb&dl=pexels-thelazyartist-1642125.jpg&fm=jpg"
+                            alt="Resim 2">
+                        <div class="caption">Bu ikinci resmin yazısı.</div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://wallpapers.com/images/hd/real-estate-modern-white-house-dcxpp5xsw4e7wqgc.jpg"
+                            alt="Resim 3">
+                        <div class="caption">Bu üçüncü resmin yazısı.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-right">
+                <h2>Ütopya Maltepe</h2>
+                <div class="section-right-1">
+                    <p>
+                        Koruya komşu konumuyla maksimum yeşil alana erişim imkânı sunan Ütopya Maltepe, tüm
+                        ulaşım akslarının merkezinde yer alan 11 blok ve 796 dairesiyle, 116 bin metrekarelik geniş bir
+                        alanda doğa ve şehir hayatını buluşturan konforlu bir yaşam vadediyor. Hem doğayla iç içe hem de
+                        şehrin dinamiklerine yakın bu projede, modern yaşamın tüm olanaklarını keşfetme fırsatı
+                        bulacaksınız.
+                    </p>
+
+                </div>
+                <div class="section-right-2">
+                    <p>Ütopya Maltepe, şehir merkezine yakın olmasının yanı sıra, 42.300 metrekarelik bir koru ile
+                        çevrili eşsiz bir konumda yaşam fırsatı sunuyor. Burada, şehrin yoğunluğundan kaçabilir ve
+                        33.000 metrekarelik peyzaj alanında ailenizle birlikte doğanın keyfini çıkarabilirsiniz. Hem
+                        doğanın içinde huzur bulacağınız hem de şehre yakın olmanın avantajlarını yaşayacağınız bu özel
+                        mekân, sakin ve konforlu bir yaşam arayanlar için ideal bir seçenek.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benzer projelerimiz-->
+    <div id="projects-section">
+        <div class="project-container">
+            <h2>Benzer Projelerimiz</h2>
+            <div class="card-slider">
+                <div class="card">
+                    <img src="https://right-way.co/images/newsen/174/Right-Way-Blogs2.jpg" alt="Resim 1">
+                    <div class="card-caption">
+                        <p>Bu birinci resmin yazısı.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?cs=srgb&dl=pexels-thelazyartist-1642125.jpg&fm=jpg"
+                        alt="Resim 2">
+                    <div class="card-caption">
+                        <p>Bu ikinci resmin yazısı.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://wallpapers.com/images/hd/real-estate-modern-white-house-dcxpp5xsw4e7wqgc.jpg"
+                        alt="Resim 3">
+                    <div class="card-caption">
+                        <p>Bu üçüncü resmin yazısı.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact-section">
+        <!-- Contact Form Container -->
+        <div class="contact-container">
+            <h2>Bize Ulaşın</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ad Soyad</label>
+                    <input type="text" class="form-control" id="name" placeholder="Adınızı ve Soyadınızı Girin">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Telefon</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Telefon Numaranızı Girin">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mesaj</label>
+                    <textarea class="form-control" id="message" rows="4"
+                        placeholder="Mesajınızı Buraya Yazın"></textarea>
+                </div>
+                <button type="button" class="btn-cagla w-100">Gönder</button>
+            </form>
+        </div>
+        <!-- Contact Info Container -->
+        <div class="info-container">
+            <h2>İletişim Bilgileri</h2>
+            <h3 style="text-decoration: underline;">Satış Ofisi</h3>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.971452140496!2d29.128663415408067!3d40.93433377930744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8d6a6be9cb1%3A0x98b22ec184e473d9!2sMaltepe%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1680879876543!5m2!1str!2str"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <a target="_blank" class="adress" href="https://goo.gl/maps/3pF1kXXbLXN2">
+                    <p>Maltepe, İstanbul/Türkiye</p>
+                </a>
+                <a href="tel:#">
+                    <p>0216 444 02 22</p>
+                </a>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fa-solid fa-globe"></i></a>
+                <a href="mailto:info@firma.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <!--popup form-->
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <button type="button" class="btn close-button" onclick="toggleForm()"><i class="fa-solid fa-x"></i></button>
+            <p>Randevu Oluşturun</p>
+
+            <label for="name"><b>Ad Soyad</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+
+            <label for="phone"><b>Telefon</b></label>
+            <input type="text" placeholder="Enter Phone" name="phone" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="message" class="form-label">Mesaj</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Mesajınızı Buraya Yazın"></textarea>
+
+
+            <button type="submit" class="btn talep-button">Talep Oluştur</button>
+        </form>
+    </div>
+
+    <!-- Button to open/close form -->
+    <button class="open-button" onclick="toggleForm()"><i class="fa-regular fa-paper-plane"></i></button>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <img src="logo2.jpg" alt="logo" width="180px">
+                </div>
+
+                <div class="social-icons col-md-4 col-6 text-end">
+                    <a href="https://dashy.com.tr/"><i class="fa-solid fa-globe"></i></a>
+                    <a href="mailto:info@dashy.com.tr"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/dashydigital/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61562302272159&locale=tr_TR"><i
+                            class="fab fa-facebook"></i></a>
+
+                    <p>İstanbul/Türkiye</p>
+                    <p>© 2024 Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script>
+        function toggleForm() {
+            const form = document.getElementById("myForm");
+            const button = document.querySelector(".open-button");
+
+            if (form.style.display === "block") {
+                form.style.display = "none";
+                button.style.display = "block";
+            } else {
+                form.style.display = "block";
+                button.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        // İlk slider (pagination olmadan)
+        const slides = document.querySelectorAll(".slide");
+        let currentSlide = 0;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? "block" : "none";
+            });
+            currentSlide = index;
+        }
+
+        function startSlider() {
+            slideInterval = setInterval(() => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }, 3000);
+        }
+
+        function stopSlider() {
+            clearInterval(slideInterval);
+        }
+
+        showSlide(currentSlide);
+        startSlider();
+    </script>
+
+
+    <script>
+        const cards = document.querySelectorAll(".card");
+        const pagination = document.querySelector(".pagination");
+
+        let currentCard = 0;
+        let interval;
+
+        cards.forEach((_, index) => {
+            const dot = document.createElement("div");
+            dot.classList.add("dot");
+            if (index === 0) dot.classList.add("active");
+            dot.dataset.index = index;
+            pagination.appendChild(dot);
+        });
+
+        function showCard(index) {
+            cards.forEach((card, i) => {
+                card.style.display = i === index ? "block" : "none";
+            });
+
+            document.querySelectorAll(".dot").forEach((dot, i) => {
+                dot.classList.toggle("active", i === index);
+            });
+
+            currentCard = index;
+        }
+
+        function startCard() {
+            interval = setInterval(() => {
+                currentCard = (currentCard + 1) % cards.length;
+                showCard(currentCard);
+            }, 3000);
+        }
+
+        function stopCard() {
+            clearInterval(interval);
+        }
+
+        pagination.addEventListener("click", (e) => {
+            if (e.target.classList.contains("dot")) {
+                stopCard();
+                const index = parseInt(e.target.dataset.index, 10);
+                showCard(index);
+                startCard();
+            }
+        });
+
+        showCard(currentCard
+        );
+        startCard();
+
+    </script>
+
+
+</body>
+
+</html>

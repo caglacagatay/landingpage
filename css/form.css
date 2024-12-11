@@ -1,0 +1,132 @@
+
+/*form popup*/
+
+@media screen and (max-width: 992px) {
+    .form-popup {
+       max-width: 300px !important;
+    }
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: none;
+}
+
+.close-button {
+    background-color: transparent;
+    color: white !important;
+    position: fixed;
+    right: 20px; 
+    border: none; 
+    cursor: pointer; 
+    opacity: 0.8;
+}
+
+.form-popup {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    z-index: 9;
+    margin-bottom: 10px;
+
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.form-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-container b {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-container input[type=text]
+ {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: rgba(255, 255 , 255, 0.7);
+}
+
+.form-container input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .talep-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.form-container .talep-button:hover {
+    background-color: rgba(0, 0, 0, 0.292);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+
+}
+
+.form-container .open-button:hover {
+    opacity: 1;
+}
+
+.form-container textarea  {
+    border: 1px solid #fff !important;
+    background: rgba(255, 255 , 255, 0.7) !important;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd !important;
+    outline: none !important;
+}
+
+textarea{
+    resize: none !important;
+}
+
+.form-popup .form-label {
+    color: white;
+    font-weight: bold;
+}
